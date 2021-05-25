@@ -7,7 +7,7 @@ import { NavLinkComponent } from "./NavLinkComponent";
 export function NavLinks() {
   return (
     <>
-      <NavLinkComponent href="/" iconName={RiCalendarLine} linkTitle="agende sua consulta"/>
+      <NavLinkComponent href="/appointmentsearch" iconName={RiCalendarLine} linkTitle="agende sua consulta"/>
       <NavLinkComponent href="/" iconName={RiServiceLine} linkTitle="produtos e serviços"/>
       <NavLinkComponent href="/login" iconName={RiLoginBoxLine} linkTitle="faça seu login"/>
 
